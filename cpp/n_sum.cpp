@@ -76,7 +76,7 @@ int main() {
   std::cout << "Enter target: ";
   std::cin >> target;
 
-  std::cout << "Enter numbers (seperated by spaces):\n";
+  std::cout << "Enter numbers (seperated by spaces) end input with any letter:\n";
   std::vector<int> nums;
   int num;
 
