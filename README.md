@@ -13,7 +13,7 @@ nums = -30 -29 -28 -27 -26 -25 -24 -23 -22 -21 -20 -19 -18 -17 -16 -15 -14 -13 -
 python algo:  
 <img width="690" height="484" alt="Screenshot From 2026-08-16 20-12-02" src="https://github.com/user-attachments/assets/1c236b0f-8b72-4460-9bd8-9a6c3d5f0465" />  
 
-translated python code to cpp code by hand:  
+directly translated python to cpp code by hand:  
 <img width="690" height="484" alt="Screenshot From 2026-08-16 20-11-50" src="https://github.com/user-attachments/assets/075319ee-ec70-4f82-8420-a4f12144443b" />  
 
 cpp algo:  
