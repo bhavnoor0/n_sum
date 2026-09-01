@@ -11,7 +11,9 @@ Python solution:
 <img width="690" height="484" alt="Screenshot From 2026-08-16 20-12-02" src="https://github.com/user-attachments/assets/1c236b0f-8b72-4460-9bd8-9a6c3d5f0465" />
 
 Python solution translated to bad cpp code:
+
 <img width="690" height="484" alt="Screenshot From 2026-08-16 20-11-50" src="https://github.com/user-attachments/assets/075319ee-ec70-4f82-8420-a4f12144443b" />
 
 Optimised cpp solution:
+
 <img width="690" height="484" alt="Screenshot From 2026-09-02 08-27-56" src="https://github.com/user-attachments/assets/5ed41857-4759-41ff-8162-775f32da9f9f" />
