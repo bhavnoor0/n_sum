@@ -15,7 +15,7 @@ Python solution:
 Python solution translated to bad cpp code:
 
 <img width="690" height="484" alt="Screenshot From 2026-08-16 20-11-50" src="https://github.com/user-attachments/assets/075319ee-ec70-4f82-8420-a4f12144443b" />
-
+\
 
 Optimised cpp solution:
 
