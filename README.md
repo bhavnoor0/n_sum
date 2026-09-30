@@ -30,7 +30,7 @@ python python/n_sum.py --n --target --nums
 
 ```fish 
 g++ -std=c++20 -g naive_cpp/n_sum.cpp -o naive_cpp/n_sum
-./cpp/n_sum
+./naive_cpp/n_sum
 ```
 #### C++
 
