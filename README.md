@@ -1,5 +1,5 @@
 ## n_sum
-This project implements a generalised n-sum algorithm, extending problems like LeetCode's [TwoSum](https://leetcode.com/problems/two-sum/description/), [3Sum](https://leetcode.com/problems/3sum/description/) and [4Sum](https://leetcode.com/problems/4sum/description/) to arbitrary n.
+This project implements a generalised n-sum algorithm, extending problems like LeetCode's [Two Sum](https://leetcode.com/problems/two-sum/description/), [3Sum](https://leetcode.com/problems/3sum/description/) and [4Sum](https://leetcode.com/problems/4sum/description/) to arbitrary n.
 
 The solution was first written up in python and it was assumed that rewriting the algorithm in C++ would make it faster. This was then naively attempted which resulted in the naive C++ solution which turned out to be much slower than expected (worse than python!). The naive solution copied the exact logic of the python algorithm resulting in the creation of vectors at each recursive layer. This was then optimised through the use of a single in place vector which is pulled and pushed to from each recursive layer, thus improving the performance of the algorithm by orders of magnitude.
 
@@ -18,3 +18,23 @@ Naive C++ solution:
 
 C++ solution:  
 <img width="690" height="484" alt="Screenshot From 2026-09-02 08-27-56" src="https://github.com/user-attachments/assets/5ed41857-4759-41ff-8162-775f32da9f9f" />
+
+
+### Building
+#### Python
+
+```fish 
+python python/n_sum.py --n --target --nums
+```
+#### Naive C++
+
+```fish 
+g++ -std=c++20 -g naive_cpp/n_sum.cpp -o naive_cpp/n_sum
+./cpp/n_sum
+```
+#### C++
+
+```fish 
+g++ -std=c++20 -g cpp/n_sum.cpp -o cpp/n_sum
+./cpp/n_sum
+```
